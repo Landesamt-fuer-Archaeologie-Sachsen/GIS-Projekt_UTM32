@@ -1,0 +1,34 @@
+# TachyGIS-Konfigurationsdatei
+# ============================
+# Version: 0.00.1 (allererste Idee)
+# Stand: 2025-03-03
+
+AutoSave_enabled: True
+AutoSave_interval_in_min: 15
+AutoSave_keep_last_n_backups: 10
+
+# Punkte Import
+default_importordner: "./../Jobs"
+
+# Punkte Export
+default_exportordner: "./../Jobs"
+
+# Profile-Tool
+# ------------
+# Werte, mit denen Profile in den Attributen obj_typ, obj_art und obj_spez
+# gekennzeichnet sind (null ist ein Platzhalter für einen beliebigen Wert)
+
+ProfileTool_ProfilPP_ObjTyp: "12" #"Passpunkt_PP"
+ProfileTool_ProfilPP_ObjArt: null #"Profil_PP"
+ProfileTool_ProfilPP_ObjSpez: null
+
+Digitize_display_points: ["12", "8"] #["Passpunkt_PP", "Fund_FUN", "Probe_PRB"]
+Digitize_Befund_ObjTyp: "1" #"Befund_B"
+Digitize_Profil_ObjTyp: "2" #"Profil_PRF"
+
+Transformation_colNameGcpSource: "11" #"Festpunkt_FP"
+
+GeoRef_Profil_ObjTyp: "2" #"Profil_PRF"
+GeoRef_Profil_ColName: "prof_nr"
+GeoRef_Fotoentzerrpunkt_ObjTyp: "12" #"Passpunkt_PP"
+GeoRef_Fotoentzerrpunkt_ObjArt: null #"Profil_PP"
