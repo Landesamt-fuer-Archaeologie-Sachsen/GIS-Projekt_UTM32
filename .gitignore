@@ -1,0 +1,13 @@
+#Pycharm
+/.idea
+
+# lokale Sicherungen (an beliebiger Stelle, z.B. 4_GraDo field/_Sicherungen_)
+_Sicherungen_/
+
+# Windows/Office-Artefakte
+desktop.ini
+Thumbs.db
+~$*
+
+# große Rohbilder (nur lokal, nicht im Remote)
+4_GraDo field/Rasterdaten/3_Übersichtsfotos/*.tif
