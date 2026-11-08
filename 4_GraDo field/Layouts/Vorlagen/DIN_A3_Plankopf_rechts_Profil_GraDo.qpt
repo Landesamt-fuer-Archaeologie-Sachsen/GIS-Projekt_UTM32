@@ -3793,7 +3793,7 @@
        <column type="field" name="Pos" hidden="0" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -4883,7 +4883,7 @@ def my_form_open(dialog, layer, feature):
        <column type="actions" hidden="1" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -5996,7 +5996,7 @@ def my_form_open(dialog, layer, feature):
        <column type="field" name="Messtyp" hidden="0" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -7033,7 +7033,7 @@ def my_form_open(dialog, layer, feature):
        <column type="field" name="Pos" hidden="0" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -8123,7 +8123,7 @@ def my_form_open(dialog, layer, feature):
        <column type="actions" hidden="1" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -9236,7 +9236,7 @@ def my_form_open(dialog, layer, feature):
        <column type="field" name="Messtyp" hidden="0" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -9464,7 +9464,7 @@ def my_form_open(dialog, layer, feature):
        <column type="actions" hidden="1" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>

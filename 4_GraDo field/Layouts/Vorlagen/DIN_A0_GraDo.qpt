@@ -4678,7 +4678,7 @@
       <rowstyles/>
       <fieldstyles/>
      </conditionalstyles>
-     <editform tolerant="1">D:/Projekte_in_Arbeit/2015_0211_Nordtangente/2015_0211_Ko-Nordentlastung/QGIS</editform>
+     <editform tolerant="1"></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -4954,7 +4954,7 @@ def my_form_open(dialog, layer, feature):
        <column type="actions" hidden="1" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>D:/Projekte_in_Arbeit/2015_0211_Nordtangente/2015_0211_Ko-Nordentlastung/QGIS</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -5461,7 +5461,7 @@ def my_form_open(dialog, layer, feature):
        <column type="field" name="Text" hidden="0" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>C:/Users/manuel.kickenberg/Kickenberg/Qgis/Test_Ordner/Vorlage_Qgis</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>
@@ -5701,7 +5701,7 @@ def my_form_open(dialog, layer, feature):
        <column type="actions" hidden="1" width="-1"/>
       </columns>
      </attributetableconfig>
-     <editform>D:/Projekte_in_Arbeit/2015_0211_Nordtangente/2015_0211_Ko-Nordentlastung/QGIS</editform>
+     <editform></editform>
      <editforminit/>
      <editforminitcodesource>0</editforminitcodesource>
      <editforminitfilepath/>

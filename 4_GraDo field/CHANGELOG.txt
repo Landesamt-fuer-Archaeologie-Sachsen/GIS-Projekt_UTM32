@@ -1,8 +1,19 @@
 # Projektstruktur GKDE
-Projektordner als Vorlage zur Verwendung mit Tachy2GIS_arch. - Das Vorlagenprojekt in diesem developmen-branch ist für die Tachy2GIS_arch-Version des development-branch im Tachy2GIS_arch repository in Verbindung mit dem Plugin Tachy2GIS von https://github.com/gbv/Tachy2GIS vorbereitet! - Die QGIS-Projektdatei sowie die Geodaten sind auf das CRS ETRS89_UTM32 (EPSG 25832) eingestellt. Zum Starten die QGIS-Projektdatei im Ordner \Projekt öffnen.
+Projektordner als Vorlage zur Verwendung mit Tachy2GIS_arch 2.1.1. Die QGIS-Projektdatei sowie die Geodaten sind auf das CRS ETRS89_UTM32 (EPSG 25832) eingestellt. Zum Starten die QGIS-Projektdatei im Ordner \Projekt öffnen.
 
 # CHANGELOG, Änderungen (seit 2025)
 ===================================
+v2.1.1 (2026-11-08)
+-------------------
+- Passend zu Tachy2GIS_arch 2.1.1
+- Neue Tabelle fotoart, Tabelle tagebuch_final in tagebuch umbenannt
+- Neue Felder: fund_uebergabe (E_Point, profildata_E_Point), aar_x/aar_z (profildata_gcp_points), einrichtung_m/_n/_f in Fotoliste (statt Fotoeinrichtung)
+- Vokabular obj_type_s1: Zeichnung ergänzt
+- Formulare und Stile vereinheitlicht (qml_Dateien, Projektdatei, Geopackage), Defaultwerte für Auto-Attributierung (grschnitt_nr, teilplanum_nr, gehoert_zu)
+- Analoge Formulare aktualisiert
+- Ordner Rasterdaten/Profile entfernt (pa/ph legt das Plugin neben dem Profilfoto an)
+- Absolute Pfade durch relative ersetzt bzw. entfernt
+
 2026-01-19
 - GKDE: Anpassung Config-Datei auf GDKE Werte
 

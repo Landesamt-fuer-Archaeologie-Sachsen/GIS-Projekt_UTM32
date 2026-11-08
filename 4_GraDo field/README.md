@@ -1,13 +1,10 @@
 # Projektstruktur für Tachy2GIS_arch
 Das Repository beinhaltet die Projektstruktur für die Nutzung des QGIS-Plugins Tachy2GIS_arch (T2G_arch).
 Die Projektstruktur enthält QGIS-Projektdatei, Geodaten, Konfigurationsdateien, Ordner für Sicherungen, Sekundärdaten, Exporte usw.
-Aktuell sind zwei Versionen der Projektstruktur verfügbar:
-- Branch `LfA_Sachsen`: Projektstruktur mit Vokabular des LfA Sachsen, Projekt-KBS ist UTM33
-- Branch `GDKE`: Projektstruktur mit Vokabular der GDKE, Projekt-KBS ist UTM32
-
-## Testdaten
-Das Projekt enthält Testdaten für die Entwicklung der Version 2.x von Tachy2GIS_arch (develop-branch im Repository "Tachy2GIS_arch").
-Für die Ausgabe an Endnutzer werden die Testdaten aus dem Projekt entfernt.
+## Version
+- Projektstruktur: 2.1.1 (GDKE, Vokabular der GDKE, Projekt-KBS ist UTM32)
+- Passend zu Tachy2GIS_arch: 2.1.1
+- Leere Vorlage ohne Testdaten
 
 ## Einstellungen im QGIS Projekt
 - Layer mit müssen vorhanden sein mit entsprechenden Attributfeldern:

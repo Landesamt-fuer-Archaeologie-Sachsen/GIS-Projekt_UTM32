@@ -23276,8 +23276,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23286,8 +23286,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23296,12 +23296,12 @@
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
-            <Option name="allow_null" value="true" type="bool"/>
-            <Option name="calendar_popup" value="true" type="bool"/>
-            <Option name="display_format" value="dd.MM.yyyy HH:mm:ss" type="QString"/>
-            <Option name="field_format" value="dd.MM.yyyy HH:mm:ss" type="QString"/>
-            <Option name="field_format_overwrite" value="false" type="bool"/>
-            <Option name="field_iso_format" value="false" type="bool"/>
+            <Option type="bool" value="true" name="allow_null"/>
+            <Option type="bool" value="true" name="calendar_popup"/>
+            <Option type="QString" value="dd.MM.yyyy HH:mm:ss" name="display_format"/>
+            <Option type="QString" value="dd.MM.yyyy HH:mm:ss" name="field_format"/>
+            <Option type="bool" value="false" name="field_format_overwrite"/>
+            <Option type="bool" value="false" name="field_iso_format"/>
           </Option>
         </config>
       </editWidget>
@@ -23310,12 +23310,12 @@
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
-            <Option name="allow_null" value="true" type="bool"/>
-            <Option name="calendar_popup" value="true" type="bool"/>
-            <Option name="display_format" value="dd.MM.yyyy HH:mm:ss" type="QString"/>
-            <Option name="field_format" value="dd.MM.yyyy HH:mm:ss" type="QString"/>
-            <Option name="field_format_overwrite" value="false" type="bool"/>
-            <Option name="field_iso_format" value="false" type="bool"/>
+            <Option type="bool" value="true" name="allow_null"/>
+            <Option type="bool" value="true" name="calendar_popup"/>
+            <Option type="QString" value="dd.MM.yyyy HH:mm:ss" name="display_format"/>
+            <Option type="QString" value="dd.MM.yyyy HH:mm:ss" name="field_format"/>
+            <Option type="bool" value="false" name="field_format_overwrite"/>
+            <Option type="bool" value="false" name="field_iso_format"/>
           </Option>
         </config>
       </editWidget>
@@ -23324,8 +23324,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23334,8 +23334,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23344,8 +23344,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23354,26 +23354,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="false" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" value=" &quot;geom_typ&quot; = 0" type="QString"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="class_id" type="QString"/>
-            <Option name="Layer" value="obj_type_s1_ec514780_07f0_4e7a_b463_55dd74647ea0" type="QString"/>
-            <Option name="LayerName" value="obj_type_s1" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=obj_type_s1" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="s1" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="QString" value=" &quot;geom_typ&quot; = 0" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="class_id" name="Key"/>
+            <Option type="QString" value="obj_type_s1_ec514780_07f0_4e7a_b463_55dd74647ea0" name="Layer"/>
+            <Option type="QString" value="obj_type_s1" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=obj_type_s1" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="s1" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23382,26 +23382,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" value="&quot;obj_type_relation_s1_s2_s1_class_id&quot; = current_value('obj_typ')" type="QString"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="fid" type="QString"/>
-            <Option name="Layer" value="obj_type_s2_1f5fcfb8_8074_4bb3_b871_b4d5d4ad190c" type="QString"/>
-            <Option name="LayerName" value="obj_type_s2" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=obj_type_s2" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="s2" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="QString" value="&quot;obj_type_relation_s1_s2_s1_class_id&quot; = current_value('obj_typ')" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="fid" name="Key"/>
+            <Option type="QString" value="obj_type_s2_1f5fcfb8_8074_4bb3_b871_b4d5d4ad190c" name="Layer"/>
+            <Option type="QString" value="obj_type_s2" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=obj_type_s2" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="s2" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23410,26 +23410,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" value="&quot;obj_type_relation_s2_s3_fid_s2&quot; = current_value('obj_art')" type="QString"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="fid" type="QString"/>
-            <Option name="Layer" value="obj_type_s3_f02c33f0_6628_4c87_8673_327e49d8ad87" type="QString"/>
-            <Option name="LayerName" value="obj_type_s3" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=obj_type_s3" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="s3" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="QString" value="&quot;obj_type_relation_s2_s3_fid_s2&quot; = current_value('obj_art')" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="fid" name="Key"/>
+            <Option type="QString" value="obj_type_s3_f02c33f0_6628_4c87_8673_327e49d8ad87" name="Layer"/>
+            <Option type="QString" value="obj_type_s3" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=obj_type_s3" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="s3" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23438,8 +23438,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23448,8 +23448,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23458,8 +23458,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23468,8 +23468,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23478,8 +23478,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23488,26 +23488,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" type="invalid"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="class_id" type="QString"/>
-            <Option name="Layer" value="epoche_08832161_ba55_41f8_b0d1_1bd5b4e941fe" type="QString"/>
-            <Option name="LayerName" value="epoche" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=epoche" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="epoche" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="invalid" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="class_id" name="Key"/>
+            <Option type="QString" value="epoche_08832161_ba55_41f8_b0d1_1bd5b4e941fe" name="Layer"/>
+            <Option type="QString" value="epoche" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=epoche" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="epoche" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23516,26 +23516,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" value="&quot;epoche_relation_epoche_zwei_class_id&quot; = current_value('zeit')" type="QString"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="fid" type="QString"/>
-            <Option name="Layer" value="epoche_zwei_327e1e02_cd7a_41f7_a008_09a536d2c17b" type="QString"/>
-            <Option name="LayerName" value="epoche_zwei" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=epoche_zwei" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="epoche_zwei" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="QString" value="&quot;epoche_relation_epoche_zwei_class_id&quot; = current_value('zeit')&#xa;" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="fid" name="Key"/>
+            <Option type="QString" value="epoche_zwei_327e1e02_cd7a_41f7_a008_09a536d2c17b" name="Layer"/>
+            <Option type="QString" value="epoche_zwei" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=epoche_zwei" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="epoche_zwei" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23544,26 +23544,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" type="invalid"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="class_id" type="QString"/>
-            <Option name="Layer" value="material_8e720008_1214_4a6b_9104_9a78af56957e" type="QString"/>
-            <Option name="LayerName" value="material" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=material" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="material" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="invalid" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="class_id" name="Key"/>
+            <Option type="QString" value="material_8e720008_1214_4a6b_9104_9a78af56957e" name="Layer"/>
+            <Option type="QString" value="material" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=material" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="material" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23572,26 +23572,26 @@
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
-            <Option name="AllowMulti" value="false" type="bool"/>
-            <Option name="AllowNull" value="true" type="bool"/>
-            <Option name="CompleterMatchFlags" value="2" type="int"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" value="false" type="bool"/>
-            <Option name="FilterExpression" value="&quot;material_relation_material_zwei_class_id&quot; = current_value('material')" type="QString"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" value="fid" type="QString"/>
-            <Option name="Layer" value="material_zwei_c17b1092_5733_4219_9b71_f19f402af734" type="QString"/>
-            <Option name="LayerName" value="material_zwei" type="QString"/>
-            <Option name="LayerProviderName" value="ogr" type="QString"/>
-            <Option name="LayerSource" value="D:/GIS/GraDo/Beispielprojekt_Eingabemaske/V2.0_Projektstruktur-GDKE/Geopackage/grado_rlp.gpkg|layername=material_zwei" type="QString"/>
-            <Option name="NofColumns" value="1" type="int"/>
-            <Option name="OrderByDescending" value="false" type="bool"/>
-            <Option name="OrderByField" value="true" type="bool"/>
-            <Option name="OrderByFieldName" value="sorting_order" type="QString"/>
-            <Option name="OrderByKey" value="false" type="bool"/>
-            <Option name="OrderByValue" value="false" type="bool"/>
-            <Option name="UseCompleter" value="false" type="bool"/>
-            <Option name="Value" value="material_zwei" type="QString"/>
+            <Option type="bool" value="false" name="AllowMulti"/>
+            <Option type="bool" value="true" name="AllowNull"/>
+            <Option type="int" value="2" name="CompleterMatchFlags"/>
+            <Option type="invalid" name="Description"/>
+            <Option type="bool" value="false" name="DisplayGroupName"/>
+            <Option type="QString" value="&quot;material_relation_material_zwei_class_id&quot; = current_value('material')" name="FilterExpression"/>
+            <Option type="invalid" name="Group"/>
+            <Option type="QString" value="fid" name="Key"/>
+            <Option type="QString" value="material_zwei_c17b1092_5733_4219_9b71_f19f402af734" name="Layer"/>
+            <Option type="QString" value="material_zwei" name="LayerName"/>
+            <Option type="QString" value="ogr" name="LayerProviderName"/>
+            <Option type="QString" value="../Geopackage/grado_rlp.gpkg|layername=material_zwei" name="LayerSource"/>
+            <Option type="int" value="1" name="NofColumns"/>
+            <Option type="bool" value="false" name="OrderByDescending"/>
+            <Option type="bool" value="true" name="OrderByField"/>
+            <Option type="QString" value="sorting_order" name="OrderByFieldName"/>
+            <Option type="bool" value="false" name="OrderByKey"/>
+            <Option type="bool" value="false" name="OrderByValue"/>
+            <Option type="bool" value="false" name="UseCompleter"/>
+            <Option type="QString" value="material_zwei" name="Value"/>
           </Option>
         </config>
       </editWidget>
@@ -23600,8 +23600,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="true" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="true" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23610,8 +23610,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="true" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="true" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23620,8 +23620,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23630,8 +23630,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23640,8 +23640,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23650,8 +23650,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23660,8 +23660,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23670,8 +23670,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23680,8 +23680,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23690,8 +23690,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23700,8 +23700,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23710,8 +23710,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23720,8 +23720,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23730,8 +23730,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23740,8 +23740,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23750,8 +23750,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23760,8 +23760,8 @@
       <editWidget type="TextEdit">
         <config>
           <Option type="Map">
-            <Option name="IsMultiline" value="false" type="bool"/>
-            <Option name="UseHtml" value="false" type="bool"/>
+            <Option type="bool" value="false" name="IsMultiline"/>
+            <Option type="bool" value="false" name="UseHtml"/>
           </Option>
         </config>
       </editWidget>
@@ -23770,12 +23770,24 @@
       <editWidget type="DateTime">
         <config>
           <Option type="Map">
-            <Option name="allow_null" value="true" type="bool"/>
-            <Option name="calendar_popup" value="true" type="bool"/>
-            <Option name="display_format" value="dd.MM.yyyy HH:mm:ss" type="QString"/>
-            <Option name="field_format" value="yyyy-MM-dd HH:mm:ss" type="QString"/>
-            <Option name="field_format_overwrite" value="false" type="bool"/>
-            <Option name="field_iso_format" value="false" type="bool"/>
+            <Option type="bool" value="true" name="allow_null"/>
+            <Option type="bool" value="true" name="calendar_popup"/>
+            <Option type="QString" value="dd.MM.yyyy HH:mm:ss" name="display_format"/>
+            <Option type="QString" value="yyyy-MM-dd HH:mm:ss" name="field_format"/>
+            <Option type="bool" value="false" name="field_format_overwrite"/>
+            <Option type="bool" value="false" name="field_iso_format"/>
+          </Option>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="NoFlag" name="fund_uebergabe">
+      <editWidget type="CheckBox">
+        <config>
+          <Option type="Map">
+            <Option type="bool" value="false" name="AllowNullState"/>
+            <Option type="invalid" name="CheckedState"/>
+            <Option type="int" value="0" name="TextDisplayMethod"/>
+            <Option type="invalid" name="UncheckedState"/>
           </Option>
         </config>
       </editWidget>
@@ -23787,14 +23799,14 @@
     <alias field="erf_datum" name="Erfassungsdatum" index="2"/>
     <alias field="mod_datum" name="Änderungsdatum" index="3"/>
     <alias field="geo_quelle" name="Geo Quelle" index="4"/>
-    <alias field="aktcode" name="Grabung" index="5"/>
+    <alias field="aktcode" name="Maßnahmennummer" index="5"/>
     <alias field="lokal_id" name="" index="6"/>
-    <alias field="obj_typ" name="Okjekttyp" index="7"/>
+    <alias field="obj_typ" name="Objekttyp" index="7"/>
     <alias field="obj_art" name="Objektart" index="8"/>
-    <alias field="obj_spez" name="    Objektspezifikation" index="9"/>
+    <alias field="obj_spez" name="Objektspezifikation" index="9"/>
     <alias field="gehoert_zu" name="gehört zu " index="10"/>
-    <alias field="fund_nr" name="Fund" index="11"/>
-    <alias field="probe_nr" name="Probe" index="12"/>
+    <alias field="fund_nr" name="Fundnummer" index="11"/>
+    <alias field="probe_nr" name="Probennummer" index="12"/>
     <alias field="prof_nr" name="Profil" index="13"/>
     <alias field="pt_nr" name="Punkt" index="14"/>
     <alias field="zeit" name="Epoche" index="15"/>
@@ -23814,128 +23826,132 @@
     <alias field="planum_nr" name="Planum" index="29"/>
     <alias field="bef_nr" name="Befund/ ZBS" index="30"/>
     <alias field="ueber_schneidet" name="überschneidet" index="31"/>
-    <alias field="unter_geschnitten_von" name="        untergeschnitten von" index="32"/>
+    <alias field="unter_geschnitten_von" name="untergeschnitten von" index="32"/>
     <alias field="grschnitt_nr" name="Grabungsschnitt" index="33"/>
     <alias field="teilplanum_nr" name="Teilplanum" index="34"/>
     <alias field="gleichzeitig_mit" name="gleichzeitig mit" index="35"/>
     <alias field="funddatum" name="Funddatum" index="36"/>
+    <alias field="fund_uebergabe" name="Fund übergeben" index="37"/>
   </aliases>
   <splitPolicies>
-    <policy field="fid" policy="DefaultValue"/>
-    <policy field="obj_uuid" policy="DefaultValue"/>
-    <policy field="erf_datum" policy="DefaultValue"/>
-    <policy field="mod_datum" policy="DefaultValue"/>
-    <policy field="geo_quelle" policy="DefaultValue"/>
-    <policy field="aktcode" policy="DefaultValue"/>
-    <policy field="lokal_id" policy="DefaultValue"/>
-    <policy field="obj_typ" policy="DefaultValue"/>
-    <policy field="obj_art" policy="DefaultValue"/>
-    <policy field="obj_spez" policy="DefaultValue"/>
-    <policy field="gehoert_zu" policy="DefaultValue"/>
-    <policy field="fund_nr" policy="DefaultValue"/>
-    <policy field="probe_nr" policy="DefaultValue"/>
-    <policy field="prof_nr" policy="DefaultValue"/>
-    <policy field="pt_nr" policy="DefaultValue"/>
-    <policy field="zeit" policy="DefaultValue"/>
-    <policy field="zeit_zwei" policy="DefaultValue"/>
-    <policy field="material" policy="DefaultValue"/>
-    <policy field="material_zwei" policy="DefaultValue"/>
-    <policy field="bemerkung" policy="DefaultValue"/>
-    <policy field="beschreibung" policy="DefaultValue"/>
-    <policy field="interpretation" policy="DefaultValue"/>
-    <policy field="lokalisierung" policy="DefaultValue"/>
-    <policy field="raum_nr" policy="DefaultValue"/>
-    <policy field="datiert_durch" policy="DefaultValue"/>
-    <policy field="x" policy="DefaultValue"/>
-    <policy field="y" policy="DefaultValue"/>
-    <policy field="z" policy="DefaultValue"/>
-    <policy field="schnitt_nr" policy="DefaultValue"/>
-    <policy field="planum_nr" policy="DefaultValue"/>
-    <policy field="bef_nr" policy="DefaultValue"/>
-    <policy field="ueber_schneidet" policy="DefaultValue"/>
-    <policy field="unter_geschnitten_von" policy="DefaultValue"/>
-    <policy field="grschnitt_nr" policy="DefaultValue"/>
-    <policy field="teilplanum_nr" policy="DefaultValue"/>
-    <policy field="gleichzeitig_mit" policy="DefaultValue"/>
-    <policy field="funddatum" policy="DefaultValue"/>
+    <policy policy="DefaultValue" field="fid"/>
+    <policy policy="DefaultValue" field="obj_uuid"/>
+    <policy policy="DefaultValue" field="erf_datum"/>
+    <policy policy="DefaultValue" field="mod_datum"/>
+    <policy policy="DefaultValue" field="geo_quelle"/>
+    <policy policy="DefaultValue" field="aktcode"/>
+    <policy policy="DefaultValue" field="lokal_id"/>
+    <policy policy="DefaultValue" field="obj_typ"/>
+    <policy policy="DefaultValue" field="obj_art"/>
+    <policy policy="DefaultValue" field="obj_spez"/>
+    <policy policy="DefaultValue" field="gehoert_zu"/>
+    <policy policy="DefaultValue" field="fund_nr"/>
+    <policy policy="DefaultValue" field="probe_nr"/>
+    <policy policy="DefaultValue" field="prof_nr"/>
+    <policy policy="DefaultValue" field="pt_nr"/>
+    <policy policy="DefaultValue" field="zeit"/>
+    <policy policy="DefaultValue" field="zeit_zwei"/>
+    <policy policy="DefaultValue" field="material"/>
+    <policy policy="DefaultValue" field="material_zwei"/>
+    <policy policy="DefaultValue" field="bemerkung"/>
+    <policy policy="DefaultValue" field="beschreibung"/>
+    <policy policy="DefaultValue" field="interpretation"/>
+    <policy policy="DefaultValue" field="lokalisierung"/>
+    <policy policy="DefaultValue" field="raum_nr"/>
+    <policy policy="DefaultValue" field="datiert_durch"/>
+    <policy policy="DefaultValue" field="x"/>
+    <policy policy="DefaultValue" field="y"/>
+    <policy policy="DefaultValue" field="z"/>
+    <policy policy="DefaultValue" field="schnitt_nr"/>
+    <policy policy="DefaultValue" field="planum_nr"/>
+    <policy policy="DefaultValue" field="bef_nr"/>
+    <policy policy="DefaultValue" field="ueber_schneidet"/>
+    <policy policy="DefaultValue" field="unter_geschnitten_von"/>
+    <policy policy="DefaultValue" field="grschnitt_nr"/>
+    <policy policy="DefaultValue" field="teilplanum_nr"/>
+    <policy policy="DefaultValue" field="gleichzeitig_mit"/>
+    <policy policy="DefaultValue" field="funddatum"/>
+    <policy policy="DefaultValue" field="fund_uebergabe"/>
   </splitPolicies>
   <defaults>
-    <default field="fid" expression="if (count(&quot;fid&quot;) = 0, 0, maximum(&quot;fid&quot;) + 1)" applyOnUpdate="0"/>
-    <default field="obj_uuid" expression="uuid()" applyOnUpdate="0"/>
-    <default field="erf_datum" expression="now()" applyOnUpdate="0"/>
-    <default field="mod_datum" expression="now()" applyOnUpdate="1"/>
-    <default field="geo_quelle" expression="" applyOnUpdate="0"/>
-    <default field="aktcode" expression=" @aktcode " applyOnUpdate="0"/>
-    <default field="lokal_id" expression="" applyOnUpdate="0"/>
-    <default field="obj_typ" expression=" if( @autoAttribute,  @obj_typ_points, NULL ) " applyOnUpdate="0"/>
-    <default field="obj_art" expression="if(&#xa;  &quot;obj_art&quot; IS NULL,&#xa;  if( @autoAttribute, @obj_art_points, NULL ),&#xa;  if(&#xa;    to_string(&quot;obj_typ&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('obj_type_s2', 'fid', &quot;obj_art&quot;),&#xa;        'obj_type_relation_s1_s2_s1_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;obj_art&quot;&#xa;  )&#xa;)" applyOnUpdate="1"/>
-    <default field="obj_spez" expression="" applyOnUpdate="0"/>
-    <default field="gehoert_zu" expression="" applyOnUpdate="0"/>
-    <default field="fund_nr" expression=" if( @autoAttribute,  @fund_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="probe_nr" expression=" if( @autoAttribute,  @probe_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="prof_nr" expression=" if( @autoAttribute,  @prof_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="pt_nr" expression=" if( @autoAttribute,  @pt_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="zeit" expression=" if( @autoAttribute,  @zeit , NULL ) " applyOnUpdate="0"/>
-    <default field="zeit_zwei" expression="if(&#xa;  &quot;zeit_zwei&quot; IS NULL,&#xa;  if( @autoAttribute, @zeit_zwei, NULL ),&#xa;  if(&#xa;    &quot;zeit&quot; IS NULL OR to_string(&quot;zeit&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('epoche_zwei', 'fid', &quot;zeit_zwei&quot;),&#xa;        'epoche_relation_epoche_zwei_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;zeit_zwei&quot;&#xa;  )&#xa;)" applyOnUpdate="1"/>
-    <default field="material" expression=" if( @autoAttribute,  @material , NULL ) " applyOnUpdate="0"/>
-    <default field="material_zwei" expression="if(&#xa;  &quot;material_zwei&quot; IS NULL,&#xa;  if( @autoAttribute, @material_zwei, NULL ),&#xa;  if(&#xa;    &quot;material&quot; IS NULL OR to_string(&quot;material&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('material_zwei', 'fid', &quot;material_zwei&quot;),&#xa;        'material_relation_material_zwei_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;material_zwei&quot;&#xa;  )&#xa;)" applyOnUpdate="1"/>
-    <default field="bemerkung" expression="" applyOnUpdate="0"/>
-    <default field="beschreibung" expression="" applyOnUpdate="0"/>
-    <default field="interpretation" expression="" applyOnUpdate="0"/>
-    <default field="lokalisierung" expression="" applyOnUpdate="0"/>
-    <default field="raum_nr" expression="" applyOnUpdate="0"/>
-    <default field="datiert_durch" expression="" applyOnUpdate="0"/>
-    <default field="x" expression="$x" applyOnUpdate="0"/>
-    <default field="y" expression="$y" applyOnUpdate="0"/>
-    <default field="z" expression="$z" applyOnUpdate="1"/>
-    <default field="schnitt_nr" expression=" if( @autoAttribute, @schnitt_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="planum_nr" expression=" if( @autoAttribute,  @planum_nr ,NULL ) " applyOnUpdate="0"/>
-    <default field="bef_nr" expression=" if( @autoAttribute,  @bef_nr , NULL ) " applyOnUpdate="0"/>
-    <default field="ueber_schneidet" expression="" applyOnUpdate="0"/>
-    <default field="unter_geschnitten_von" expression="" applyOnUpdate="0"/>
-    <default field="grschnitt_nr" expression="" applyOnUpdate="0"/>
-    <default field="teilplanum_nr" expression="" applyOnUpdate="0"/>
-    <default field="gleichzeitig_mit" expression="" applyOnUpdate="0"/>
-    <default field="funddatum" expression="" applyOnUpdate="0"/>
+    <default applyOnUpdate="0" field="fid" expression="if (count(&quot;fid&quot;) = 0, 0, maximum(&quot;fid&quot;) + 1)"/>
+    <default applyOnUpdate="0" field="obj_uuid" expression="uuid()"/>
+    <default applyOnUpdate="0" field="erf_datum" expression="now()"/>
+    <default applyOnUpdate="1" field="mod_datum" expression="now()"/>
+    <default applyOnUpdate="0" field="geo_quelle" expression=""/>
+    <default applyOnUpdate="0" field="aktcode" expression=" @aktcode "/>
+    <default applyOnUpdate="0" field="lokal_id" expression=""/>
+    <default applyOnUpdate="0" field="obj_typ" expression=" if( @autoAttribute,  @obj_typ_points, NULL ) "/>
+    <default applyOnUpdate="1" field="obj_art" expression="if(&#xa;  &quot;obj_art&quot; IS NULL,&#xa;  if( @autoAttribute, @obj_art_points, NULL ),&#xa;  if(&#xa;    to_string(&quot;obj_typ&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('obj_type_s2', 'fid', &quot;obj_art&quot;),&#xa;        'obj_type_relation_s1_s2_s1_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;obj_art&quot;&#xa;  )&#xa;)"/>
+    <default applyOnUpdate="0" field="obj_spez" expression=""/>
+    <default applyOnUpdate="0" field="gehoert_zu" expression=" if( @autoAttribute,  @gehoert_zu , NULL) "/>
+    <default applyOnUpdate="0" field="fund_nr" expression=" if( @autoAttribute,  @fund_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="probe_nr" expression=" if( @autoAttribute,  @probe_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="prof_nr" expression=" if( @autoAttribute,  @prof_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="pt_nr" expression=" if( @autoAttribute,  @pt_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="zeit" expression=" if( @autoAttribute,  @zeit , NULL ) "/>
+    <default applyOnUpdate="1" field="zeit_zwei" expression="if(&#xa;  &quot;zeit_zwei&quot; IS NULL,&#xa;  if( @autoAttribute, @zeit_zwei, NULL ),&#xa;  if(&#xa;    &quot;zeit&quot; IS NULL OR to_string(&quot;zeit&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('epoche_zwei', 'fid', &quot;zeit_zwei&quot;),&#xa;        'epoche_relation_epoche_zwei_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;zeit_zwei&quot;&#xa;  )&#xa;)"/>
+    <default applyOnUpdate="0" field="material" expression=" if( @autoAttribute,  @material , NULL ) "/>
+    <default applyOnUpdate="1" field="material_zwei" expression="if(&#xa;  &quot;material_zwei&quot; IS NULL,&#xa;  if( @autoAttribute, @material_zwei, NULL ),&#xa;  if(&#xa;    &quot;material&quot; IS NULL OR to_string(&quot;material&quot;) != to_string(&#xa;      attribute(&#xa;        get_feature('material_zwei', 'fid', &quot;material_zwei&quot;),&#xa;        'material_relation_material_zwei_class_id'&#xa;      )&#xa;    ),&#xa;    NULL,&#xa;    &quot;material_zwei&quot;&#xa;  )&#xa;)"/>
+    <default applyOnUpdate="0" field="bemerkung" expression=""/>
+    <default applyOnUpdate="0" field="beschreibung" expression=""/>
+    <default applyOnUpdate="0" field="interpretation" expression=""/>
+    <default applyOnUpdate="0" field="lokalisierung" expression=""/>
+    <default applyOnUpdate="0" field="raum_nr" expression=""/>
+    <default applyOnUpdate="0" field="datiert_durch" expression=""/>
+    <default applyOnUpdate="0" field="x" expression="round ($x, 3)"/>
+    <default applyOnUpdate="0" field="y" expression="round ($y, 3)"/>
+    <default applyOnUpdate="1" field="z" expression="round ($z, 3)"/>
+    <default applyOnUpdate="0" field="schnitt_nr" expression=" if( @autoAttribute, @schnitt_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="planum_nr" expression=" if( @autoAttribute,  @planum_nr ,NULL ) "/>
+    <default applyOnUpdate="0" field="bef_nr" expression=" if( @autoAttribute,  @bef_nr , NULL ) "/>
+    <default applyOnUpdate="0" field="ueber_schneidet" expression=""/>
+    <default applyOnUpdate="0" field="unter_geschnitten_von" expression=""/>
+    <default applyOnUpdate="0" field="grschnitt_nr" expression="if( @autoAttribute, @grschnitt_nr , NULL)"/>
+    <default applyOnUpdate="0" field="teilplanum_nr" expression="if( @autoAttribute, @teilplanum_nr , NULL)"/>
+    <default applyOnUpdate="0" field="gleichzeitig_mit" expression=""/>
+    <default applyOnUpdate="0" field="funddatum" expression=""/>
+    <default applyOnUpdate="0" field="fund_uebergabe" expression=""/>
   </defaults>
   <constraints>
-    <constraint field="fid" notnull_strength="1" exp_strength="0" unique_strength="1" constraints="3"/>
-    <constraint field="obj_uuid" notnull_strength="0" exp_strength="0" unique_strength="2" constraints="2"/>
-    <constraint field="erf_datum" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="mod_datum" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="geo_quelle" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="aktcode" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="lokal_id" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="obj_typ" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="obj_art" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="obj_spez" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="gehoert_zu" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="fund_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="probe_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="prof_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="pt_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="zeit" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="zeit_zwei" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="material" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="material_zwei" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="bemerkung" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="beschreibung" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="interpretation" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="lokalisierung" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="raum_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="datiert_durch" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="x" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="y" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="z" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="schnitt_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="planum_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="bef_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="ueber_schneidet" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="unter_geschnitten_von" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="grschnitt_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="teilplanum_nr" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="gleichzeitig_mit" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
-    <constraint field="funddatum" notnull_strength="0" exp_strength="0" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" field="fid" unique_strength="1" constraints="3" notnull_strength="1"/>
+    <constraint exp_strength="0" field="obj_uuid" unique_strength="2" constraints="2" notnull_strength="0"/>
+    <constraint exp_strength="0" field="erf_datum" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="mod_datum" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="geo_quelle" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="aktcode" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="lokal_id" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="obj_typ" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="obj_art" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="obj_spez" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="gehoert_zu" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="fund_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="probe_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="prof_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="pt_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="zeit" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="zeit_zwei" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="material" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="material_zwei" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="bemerkung" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="beschreibung" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="interpretation" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="lokalisierung" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="raum_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="datiert_durch" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="x" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="y" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="z" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="schnitt_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="planum_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="bef_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="ueber_schneidet" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="unter_geschnitten_von" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="grschnitt_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="teilplanum_nr" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="gleichzeitig_mit" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="funddatum" unique_strength="0" constraints="0" notnull_strength="0"/>
+    <constraint exp_strength="0" field="fund_uebergabe" unique_strength="0" constraints="0" notnull_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint field="fid" desc="" exp=""/>
@@ -23975,6 +23991,7 @@
     <constraint field="teilplanum_nr" desc="" exp=""/>
     <constraint field="gleichzeitig_mit" desc="" exp=""/>
     <constraint field="funddatum" desc="" exp=""/>
+    <constraint field="fund_uebergabe" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
@@ -24051,186 +24068,206 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-      <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+    <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+      <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
     </labelStyle>
-    <attributeEditorContainer groupBox="1" name="ZBS" collapsed="0" type="GroupBox" visibilityExpression="" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="0" showLabel="1" collapsedExpression="">
-      <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+    <attributeEditorContainer type="Tab" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="0" name="Fachdaten" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+        <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
       </labelStyle>
-      <attributeEditorField name="bef_nr" index="30" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="ZBS" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="grschnitt_nr" index="33" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="bef_nr" index="30">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="grschnitt_nr" index="33">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="planum_nr" index="29">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="teilplanum_nr" index="34">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="prof_nr" index="13">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="schnitt_nr" index="28">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+      </attributeEditorContainer>
+      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Ansprache" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="planum_nr" index="29" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="obj_typ" index="7">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;obj_typ&quot; =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Fundnummer" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="fund_nr" index="11">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="probe_nr" index="12">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="fund_uebergabe" index="37">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;obj_typ&quot; IN ( 11 ,  12 ,  14 , 16)" showLabel="0" verticalStretch="0" groupBox="0" name="Punktnummer" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="pt_nr" index="14">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;obj_typ&quot;  =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Material" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="material" index="17">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;material&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="Material 2" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="material_zwei" index="18">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;obj_typ&quot;  =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Zeit" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="zeit" index="15">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;zeit&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="Zeit 2" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="zeit_zwei" index="16">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;zeit&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="datiert_durch" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="datiert_durch" index="24">
+            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+            </labelStyle>
+          </attributeEditorField>
+        </attributeEditorContainer>
+      </attributeEditorContainer>
+      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Beschreibung" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="teilplanum_nr" index="34" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="gehoert_zu" index="10">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="bemerkung" index="19">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="beschreibung" index="20">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="interpretation" index="21">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="lokalisierung" index="22">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+      </attributeEditorContainer>
+      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Koordinaten" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="schnitt_nr" index="28" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="prof_nr" index="13" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="x" index="25">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="y" index="26">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="z" index="27">
+          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          </labelStyle>
+        </attributeEditorField>
+      </attributeEditorContainer>
     </attributeEditorContainer>
-    <attributeEditorContainer groupBox="1" name="Ansprache" collapsed="0" type="GroupBox" visibilityExpression="" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="0" showLabel="1" collapsedExpression="">
-      <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+    <attributeEditorContainer type="Tab" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="0" name="Technisches" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
+      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+        <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
       </labelStyle>
-      <attributeEditorField name="obj_typ" index="7" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="erf_datum" index="2">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorContainer groupBox="0" name="Fundnummer" collapsed="0" type="Row" visibilityExpression="&quot;obj_typ&quot; =  8 " verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="fund_nr" index="11" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField name="probe_nr" index="12" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="Punktnummer" collapsed="0" type="Row" visibilityExpression="&quot;obj_typ&quot; IN ( 11 ,  12 ,  14 , 16)" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="pt_nr" index="14" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="Material" collapsed="0" type="Row" visibilityExpression=" &quot;obj_typ&quot;  =  8 " verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="material" index="17" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="Material 2" collapsed="0" type="Row" visibilityExpression="&quot;material&quot; IS NOT NULL" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="material_zwei" index="18" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="Zeit" collapsed="0" type="Row" visibilityExpression=" &quot;obj_typ&quot;  =  8 " verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="zeit" index="15" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="Zeit 2" collapsed="0" type="Row" visibilityExpression="&quot;zeit_zwei&quot; IS NOT NULL" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="zeit_zwei" index="16" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer groupBox="0" name="datiert_durch" collapsed="0" type="Row" visibilityExpression=" &quot;zeit&quot; IS NOT NULL" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="1" showLabel="0" collapsedExpression="">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-        <attributeEditorField name="datiert_durch" index="24" verticalStretch="0" horizontalStretch="0" showLabel="1">
-          <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-            <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-    </attributeEditorContainer>
-    <attributeEditorContainer groupBox="1" name="Beschreibung" collapsed="0" type="GroupBox" visibilityExpression="" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="0" showLabel="1" collapsedExpression="">
-      <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-      </labelStyle>
-      <attributeEditorField name="gehoert_zu" index="10" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="mod_datum" index="3">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField name="bemerkung" index="19" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="beschreibung" index="20" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="interpretation" index="21" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="lokalisierung" index="22" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-    </attributeEditorContainer>
-    <attributeEditorContainer groupBox="1" name="Sonstiges" collapsed="0" type="GroupBox" visibilityExpression="" verticalStretch="0" columnCount="1" collapsedExpressionEnabled="0" horizontalStretch="0" visibilityExpressionEnabled="0" showLabel="1" collapsedExpression="">
-      <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-        <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-      </labelStyle>
-      <attributeEditorField name="x" index="25" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="y" index="26" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="z" index="27" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="erf_datum" index="2" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField name="mod_datum" index="3" verticalStretch="0" horizontalStretch="0" showLabel="1">
-        <labelStyle labelColor="" overrideLabelColor="0" overrideLabelFont="0">
-          <labelFont underline="0" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" style="" strikethrough="0"/>
+      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="funddatum" index="36">
+        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
+          <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
@@ -24246,6 +24283,7 @@ def my_form_open(dialog, layer, feature):
     <field name="erf_datum" editable="1"/>
     <field name="fid" editable="1"/>
     <field name="fund_nr" editable="1"/>
+    <field name="fund_uebergabe" editable="1"/>
     <field name="funddatum" editable="1"/>
     <field name="gehoert_zu" editable="1"/>
     <field name="geo-arch" editable="1"/>
@@ -24286,94 +24324,96 @@ def my_form_open(dialog, layer, feature):
     <field name="zeit_zwei" editable="1"/>
   </editable>
   <labelOnTop>
-    <field name="Text" labelOnTop="0"/>
-    <field name="aktcode" labelOnTop="0"/>
-    <field name="bef_nr" labelOnTop="0"/>
-    <field name="bemerkung" labelOnTop="0"/>
-    <field name="benerkung" labelOnTop="0"/>
-    <field name="beschreibung" labelOnTop="0"/>
-    <field name="datiert_durch" labelOnTop="0"/>
-    <field name="erf_datum" labelOnTop="0"/>
-    <field name="fid" labelOnTop="0"/>
-    <field name="fund_nr" labelOnTop="0"/>
-    <field name="funddatum" labelOnTop="0"/>
-    <field name="gehoert_zu" labelOnTop="0"/>
-    <field name="geo-arch" labelOnTop="0"/>
-    <field name="geo_quelle" labelOnTop="0"/>
-    <field name="gleichzeitig_mit" labelOnTop="0"/>
-    <field name="grschnitt_nr" labelOnTop="0"/>
-    <field name="hoehe" labelOnTop="0"/>
-    <field name="id" labelOnTop="0"/>
-    <field name="interpretation" labelOnTop="0"/>
-    <field name="lokal_id" labelOnTop="0"/>
-    <field name="lokalisierung" labelOnTop="0"/>
-    <field name="material" labelOnTop="0"/>
-    <field name="material_zwei" labelOnTop="0"/>
-    <field name="messdatum" labelOnTop="0"/>
-    <field name="mod_datum" labelOnTop="0"/>
-    <field name="obj_art" labelOnTop="0"/>
-    <field name="obj_spez" labelOnTop="0"/>
-    <field name="obj_typ" labelOnTop="0"/>
-    <field name="obj_type" labelOnTop="0"/>
-    <field name="obj_uuid" labelOnTop="0"/>
-    <field name="planum" labelOnTop="0"/>
-    <field name="planum_nr" labelOnTop="0"/>
-    <field name="prob_nr" labelOnTop="0"/>
-    <field name="probe_nr" labelOnTop="0"/>
-    <field name="prof_nr" labelOnTop="0"/>
-    <field name="pt_nr" labelOnTop="0"/>
-    <field name="ptnr" labelOnTop="0"/>
-    <field name="raum_nr" labelOnTop="0"/>
-    <field name="schnitt_nr" labelOnTop="0"/>
-    <field name="teilplanum_nr" labelOnTop="0"/>
-    <field name="ueber_schneidet" labelOnTop="0"/>
-    <field name="unter_geschnitten_von" labelOnTop="0"/>
-    <field name="uuid" labelOnTop="0"/>
-    <field name="x" labelOnTop="0"/>
-    <field name="y" labelOnTop="0"/>
-    <field name="z" labelOnTop="0"/>
-    <field name="zeit" labelOnTop="0"/>
-    <field name="zeit_zwei" labelOnTop="0"/>
+    <field labelOnTop="0" name="Text"/>
+    <field labelOnTop="0" name="aktcode"/>
+    <field labelOnTop="0" name="bef_nr"/>
+    <field labelOnTop="0" name="bemerkung"/>
+    <field labelOnTop="0" name="benerkung"/>
+    <field labelOnTop="0" name="beschreibung"/>
+    <field labelOnTop="0" name="datiert_durch"/>
+    <field labelOnTop="0" name="erf_datum"/>
+    <field labelOnTop="0" name="fid"/>
+    <field labelOnTop="0" name="fund_nr"/>
+    <field labelOnTop="0" name="fund_uebergabe"/>
+    <field labelOnTop="0" name="funddatum"/>
+    <field labelOnTop="0" name="gehoert_zu"/>
+    <field labelOnTop="0" name="geo-arch"/>
+    <field labelOnTop="0" name="geo_quelle"/>
+    <field labelOnTop="0" name="gleichzeitig_mit"/>
+    <field labelOnTop="0" name="grschnitt_nr"/>
+    <field labelOnTop="0" name="hoehe"/>
+    <field labelOnTop="0" name="id"/>
+    <field labelOnTop="0" name="interpretation"/>
+    <field labelOnTop="0" name="lokal_id"/>
+    <field labelOnTop="0" name="lokalisierung"/>
+    <field labelOnTop="0" name="material"/>
+    <field labelOnTop="0" name="material_zwei"/>
+    <field labelOnTop="0" name="messdatum"/>
+    <field labelOnTop="0" name="mod_datum"/>
+    <field labelOnTop="0" name="obj_art"/>
+    <field labelOnTop="0" name="obj_spez"/>
+    <field labelOnTop="0" name="obj_typ"/>
+    <field labelOnTop="0" name="obj_type"/>
+    <field labelOnTop="0" name="obj_uuid"/>
+    <field labelOnTop="0" name="planum"/>
+    <field labelOnTop="0" name="planum_nr"/>
+    <field labelOnTop="0" name="prob_nr"/>
+    <field labelOnTop="0" name="probe_nr"/>
+    <field labelOnTop="0" name="prof_nr"/>
+    <field labelOnTop="0" name="pt_nr"/>
+    <field labelOnTop="0" name="ptnr"/>
+    <field labelOnTop="0" name="raum_nr"/>
+    <field labelOnTop="0" name="schnitt_nr"/>
+    <field labelOnTop="0" name="teilplanum_nr"/>
+    <field labelOnTop="0" name="ueber_schneidet"/>
+    <field labelOnTop="0" name="unter_geschnitten_von"/>
+    <field labelOnTop="0" name="uuid"/>
+    <field labelOnTop="0" name="x"/>
+    <field labelOnTop="0" name="y"/>
+    <field labelOnTop="0" name="z"/>
+    <field labelOnTop="0" name="zeit"/>
+    <field labelOnTop="0" name="zeit_zwei"/>
   </labelOnTop>
   <reuseLastValue>
-    <field name="aktcode" reuseLastValue="0"/>
-    <field name="bef_nr" reuseLastValue="0"/>
-    <field name="bemerkung" reuseLastValue="0"/>
-    <field name="beschreibung" reuseLastValue="0"/>
-    <field name="datiert_durch" reuseLastValue="0"/>
-    <field name="erf_datum" reuseLastValue="0"/>
-    <field name="fid" reuseLastValue="0"/>
-    <field name="fund_nr" reuseLastValue="0"/>
-    <field name="funddatum" reuseLastValue="0"/>
-    <field name="gehoert_zu" reuseLastValue="0"/>
-    <field name="geo_quelle" reuseLastValue="0"/>
-    <field name="gleichzeitig_mit" reuseLastValue="0"/>
-    <field name="grschnitt_nr" reuseLastValue="0"/>
-    <field name="interpretation" reuseLastValue="0"/>
-    <field name="lokal_id" reuseLastValue="0"/>
-    <field name="lokalisierung" reuseLastValue="0"/>
-    <field name="material" reuseLastValue="0"/>
-    <field name="material_zwei" reuseLastValue="0"/>
-    <field name="mod_datum" reuseLastValue="0"/>
-    <field name="obj_art" reuseLastValue="0"/>
-    <field name="obj_spez" reuseLastValue="0"/>
-    <field name="obj_typ" reuseLastValue="0"/>
-    <field name="obj_uuid" reuseLastValue="0"/>
-    <field name="planum_nr" reuseLastValue="0"/>
-    <field name="probe_nr" reuseLastValue="0"/>
-    <field name="prof_nr" reuseLastValue="0"/>
-    <field name="pt_nr" reuseLastValue="0"/>
-    <field name="raum_nr" reuseLastValue="0"/>
-    <field name="schnitt_nr" reuseLastValue="0"/>
-    <field name="teilplanum_nr" reuseLastValue="0"/>
-    <field name="ueber_schneidet" reuseLastValue="0"/>
-    <field name="unter_geschnitten_von" reuseLastValue="0"/>
-    <field name="uuid" reuseLastValue="0"/>
-    <field name="x" reuseLastValue="0"/>
-    <field name="y" reuseLastValue="0"/>
-    <field name="z" reuseLastValue="0"/>
-    <field name="zeit" reuseLastValue="0"/>
-    <field name="zeit_zwei" reuseLastValue="0"/>
+    <field reuseLastValue="0" name="aktcode"/>
+    <field reuseLastValue="0" name="bef_nr"/>
+    <field reuseLastValue="0" name="bemerkung"/>
+    <field reuseLastValue="0" name="beschreibung"/>
+    <field reuseLastValue="0" name="datiert_durch"/>
+    <field reuseLastValue="0" name="erf_datum"/>
+    <field reuseLastValue="0" name="fid"/>
+    <field reuseLastValue="0" name="fund_nr"/>
+    <field reuseLastValue="0" name="fund_uebergabe"/>
+    <field reuseLastValue="0" name="funddatum"/>
+    <field reuseLastValue="0" name="gehoert_zu"/>
+    <field reuseLastValue="0" name="geo_quelle"/>
+    <field reuseLastValue="0" name="gleichzeitig_mit"/>
+    <field reuseLastValue="0" name="grschnitt_nr"/>
+    <field reuseLastValue="0" name="interpretation"/>
+    <field reuseLastValue="0" name="lokal_id"/>
+    <field reuseLastValue="0" name="lokalisierung"/>
+    <field reuseLastValue="0" name="material"/>
+    <field reuseLastValue="0" name="material_zwei"/>
+    <field reuseLastValue="0" name="mod_datum"/>
+    <field reuseLastValue="0" name="obj_art"/>
+    <field reuseLastValue="0" name="obj_spez"/>
+    <field reuseLastValue="0" name="obj_typ"/>
+    <field reuseLastValue="0" name="obj_uuid"/>
+    <field reuseLastValue="0" name="planum_nr"/>
+    <field reuseLastValue="0" name="probe_nr"/>
+    <field reuseLastValue="0" name="prof_nr"/>
+    <field reuseLastValue="0" name="pt_nr"/>
+    <field reuseLastValue="0" name="raum_nr"/>
+    <field reuseLastValue="0" name="schnitt_nr"/>
+    <field reuseLastValue="0" name="teilplanum_nr"/>
+    <field reuseLastValue="0" name="ueber_schneidet"/>
+    <field reuseLastValue="0" name="unter_geschnitten_von"/>
+    <field reuseLastValue="0" name="uuid"/>
+    <field reuseLastValue="0" name="x"/>
+    <field reuseLastValue="0" name="y"/>
+    <field reuseLastValue="0" name="z"/>
+    <field reuseLastValue="0" name="zeit"/>
+    <field reuseLastValue="0" name="zeit_zwei"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>
