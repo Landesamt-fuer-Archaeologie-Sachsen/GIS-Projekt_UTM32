@@ -1593,9 +1593,45 @@
     </columns>
   </attributetableconfig>
   <conditionalstyles>
-    <rowstyles/>
-    <fieldstyles/>
-  </conditionalstyles>
+        <rowstyles/>
+        <fieldstyles>
+          <fieldstyle fieldname="beschreibung">
+            <style rule="@value IS NULL AND  &quot;obj_typ&quot;  = 8" background_color="#fb9a99" name="Kurzansprache des Fundes fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="datiert_durch">
+            <style rule="(&quot;zeit&quot; IS NOT NULL AND &quot;zeit&quot; IS NOT 1) AND &quot;datiert_durch&quot; IS NULL " background_color="#fbc14e" name="Datierung ohne Angabe der Quelle" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="bef_nr">
+            <style rule="@value IS NULL and  &quot;obj_typ&quot; = 8" background_color="#fb9a99" name="ZBS fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="obj_typ">
+            <style rule="@value IS NULL" background_color="#fb9a99" name="Objekttyp fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="fund_nr">
+            <style rule="(&quot;obj_typ&quot; = 8 AND  &quot;fund_nr&quot;  LIKE '%_-_%' IS FALSE) OR (&quot;obj_typ&quot; = 8 AND &quot;fund_nr&quot; IS NULL)  &#xd;&#xa;OR&#xd;&#xa;(&quot;obj_typ&quot; = 8 AND &quot;fund_nr&quot;  LIKE (CONCAT(  &quot;bef_nr&quot;, '-%')) IS FALSE)" background_color="#fb9a99" name="Fundnummer fehlt oder ist unvollständig" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="funddatum">
+            <style rule="&quot;obj_typ&quot; = 8 AND @value IS NULL" background_color="#fb9a99" name="Funddatum fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="aktcode">
+            <style rule="@value LIKE '__-____-____' IS FALSE OR @value IS NOT @aktcode OR @value IS NULL " background_color="#fb9a99" name="Maßnahmennummer fehlt/fehlerhaft" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+        </fieldstyles>
+      </conditionalstyles>
   <storedexpressions/>
   <editform tolerant="1"></editform>
   <editforminit/>

@@ -9,6 +9,7 @@ v2.1.2 (2026-11-27)
 - Neues Feld Fotoname in Fotoliste
 - Vokabular obj_type_s1: Einzelfund in Fund umbenannt
 - Neuer Layer Probenliste, Fundliste neu angelegt; Formular E_Point: funddatum bei fund_nr/probe_nr
+- Bedingte Formatierung der Attributtabelle (fehlende/fehlerhafte Werte) für E_Point, E_Line, E_Polygon
 - Neue Projektvariablen Fundstelle und Fundstellenbezeichnung
 - Layouts überarbeitet
 - Analoge Formulare überarbeitet (odt) und ergänzt (Fundzettel, Grab-/Proben-/ZBS-Liste, Grabungsbericht-Deckblatt)

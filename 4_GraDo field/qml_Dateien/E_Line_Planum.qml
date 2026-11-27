@@ -11264,9 +11264,31 @@
     </columns>
   </attributetableconfig>
   <conditionalstyles>
-    <rowstyles/>
-    <fieldstyles/>
-  </conditionalstyles>
+        <rowstyles/>
+        <fieldstyles>
+          <fieldstyle fieldname="bef_nr">
+            <style rule="@value IS NULL AND (&quot;obj_typ&quot; = 18 OR &quot;obj_typ&quot; = 2)" background_color="#fb9a99" name="ZBS-Nummer fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="obj_typ">
+            <style rule="@value IS NULL" background_color="#fb9a99" name="Objekttyp fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="fid"/>
+          <fieldstyle fieldname="prof_nr">
+            <style rule="&quot;obj_typ&quot; = 2 AND  &quot;prof_nr&quot; IS NULL&#xd;&#xa;" background_color="#fb9a99" name="Profilnummer fehlt" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+          <fieldstyle fieldname="aktcode">
+            <style rule="@value LIKE '__-____-____' IS FALSE OR @value IS NOT @aktcode OR @value IS NULL" background_color="#fb9a99" name="Maßnahmennummer fehlt/fehlerhaft" background_color_alpha="255">
+              <font description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </style>
+          </fieldstyle>
+        </fieldstyles>
+      </conditionalstyles>
   <storedexpressions/>
   <editform tolerant="1"></editform>
   <editforminit/>
