@@ -1621,210 +1621,210 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>tablayout</editorlayout>
   <attributeEditorForm>
-    <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-      <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-    </labelStyle>
-    <attributeEditorContainer type="Tab" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="0" name="Fachdaten" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-        <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-      </labelStyle>
-      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="ZBS" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+        <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
         </labelStyle>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="bef_nr" index="30">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+        <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Tab" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="Fachdaten" visibilityExpression="">
+          <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+            <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
           </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="grschnitt_nr" index="33">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="GroupBox" verticalStretch="0" groupBox="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="ZBS" visibilityExpression="">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="30" name="bef_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="33" name="grschnitt_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="29" name="planum_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="34" name="teilplanum_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="13" name="prof_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="28" name="schnitt_nr">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="GroupBox" verticalStretch="0" groupBox="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="Ansprache" visibilityExpression="">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="7" name="obj_typ">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Fundnummer" visibilityExpression="&quot;obj_typ&quot; =  8 ">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="11" name="fund_nr">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="12" name="probe_nr">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="36" name="funddatum">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="37" name="fund_uebergabe">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Punktnummer" visibilityExpression="&quot;obj_typ&quot; IN ( 11 ,  12 ,  14 , 16)">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="14" name="pt_nr">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Material" visibilityExpression=" &quot;obj_typ&quot;  =  8 ">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="17" name="material">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Material 2" visibilityExpression="&quot;material&quot; IS NOT NULL">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="18" name="material_zwei">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Zeit" visibilityExpression=" &quot;obj_typ&quot;  =  8 ">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="15" name="zeit">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="Zeit 2" visibilityExpression=" &quot;zeit&quot; IS NOT NULL">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="16" name="zeit_zwei">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+            <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Row" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1" columnCount="1" collapsed="0" showLabel="0" name="datiert_durch" visibilityExpression=" &quot;zeit&quot; IS NOT NULL">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+              <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="24" name="datiert_durch">
+                <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                  <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+                </labelStyle>
+              </attributeEditorField>
+            </attributeEditorContainer>
+          </attributeEditorContainer>
+          <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="GroupBox" verticalStretch="0" groupBox="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="Beschreibung" visibilityExpression="">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="10" name="gehoert_zu">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="19" name="bemerkung">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="20" name="beschreibung">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="21" name="interpretation">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="22" name="lokalisierung">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="GroupBox" verticalStretch="0" groupBox="1" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="Koordinaten" visibilityExpression="">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+            </labelStyle>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="25" name="x">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="26" name="y">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="27" name="z">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+        </attributeEditorContainer>
+        <attributeEditorContainer horizontalStretch="0" collapsedExpression="" type="Tab" verticalStretch="0" groupBox="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" columnCount="1" collapsed="0" showLabel="1" name="Technisches" visibilityExpression="">
+          <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+            <labelFont description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
           </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="planum_nr" index="29">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="teilplanum_nr" index="34">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="prof_nr" index="13">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="schnitt_nr" index="28">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Ansprache" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="obj_typ" index="7">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;obj_typ&quot; =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Fundnummer" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="fund_nr" index="11">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="2" name="erf_datum">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
             </labelStyle>
           </attributeEditorField>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="probe_nr" index="12">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="fund_uebergabe" index="37">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
+          <attributeEditorField horizontalStretch="0" verticalStretch="0" showLabel="1" index="3" name="mod_datum">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" bold="0" underline="0" strikethrough="0" style="" italic="0"/>
             </labelStyle>
           </attributeEditorField>
         </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;obj_typ&quot; IN ( 11 ,  12 ,  14 , 16)" showLabel="0" verticalStretch="0" groupBox="0" name="Punktnummer" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="pt_nr" index="14">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;obj_typ&quot;  =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Material" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="material" index="17">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="&quot;material&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="Material 2" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="material_zwei" index="18">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;obj_typ&quot;  =  8 " showLabel="0" verticalStretch="0" groupBox="0" name="Zeit" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="zeit" index="15">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;zeit&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="Zeit 2" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="zeit_zwei" index="16">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-        <attributeEditorContainer type="Row" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression=" &quot;zeit&quot; IS NOT NULL" showLabel="0" verticalStretch="0" groupBox="0" name="datiert_durch" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="1">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-          <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="datiert_durch" index="24">
-            <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-              <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-            </labelStyle>
-          </attributeEditorField>
-        </attributeEditorContainer>
-      </attributeEditorContainer>
-      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Beschreibung" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="gehoert_zu" index="10">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="bemerkung" index="19">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="beschreibung" index="20">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="interpretation" index="21">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="lokalisierung" index="22">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-      <attributeEditorContainer type="GroupBox" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="1" name="Koordinaten" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="x" index="25">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="y" index="26">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-        <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="z" index="27">
-          <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-            <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-          </labelStyle>
-        </attributeEditorField>
-      </attributeEditorContainer>
-    </attributeEditorContainer>
-    <attributeEditorContainer type="Tab" horizontalStretch="0" collapsedExpression="" columnCount="1" visibilityExpression="" showLabel="1" verticalStretch="0" groupBox="0" name="Technisches" collapsed="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0">
-      <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-        <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-      </labelStyle>
-      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="erf_datum" index="2">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="mod_datum" index="3">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-      </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" showLabel="1" verticalStretch="0" name="funddatum" index="36">
-        <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont italic="0" description="MS Shell Dlg 2,8.4,-1,5,50,0,0,0,0,0" style="" underline="0" strikethrough="0" bold="0"/>
-        </labelStyle>
-      </attributeEditorField>
-    </attributeEditorContainer>
-  </attributeEditorForm>
+      </attributeEditorForm>
   <editable>
     <field name="Text" editable="1"/>
     <field name="aktcode" editable="1"/>
